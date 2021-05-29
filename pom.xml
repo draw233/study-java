@@ -11,6 +11,8 @@
     <modules>
         <module>reflection</module>
         <module>design-patterns</module>
+        <module>study-spring</module>
+        <module>JVM</module>
     </modules>
 
     <name>study-java</name>
