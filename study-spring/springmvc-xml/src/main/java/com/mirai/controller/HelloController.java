@@ -11,17 +11,17 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HelloController {
 
-    @RequestMapping(value = "/show.do")
+    @RequestMapping(value = "/show")
     public ModelAndView show() {
         ModelAndView mv = new ModelAndView();
-        mv.addObject("name", "zhangxj");
+        mv.addObject("name", "who are your?");
         mv.setViewName("show");
         return mv;
     }
 
-    @RequestMapping("hello.do")
+    @RequestMapping("hello")
     public @ResponseBody
     String hello() {
-        return "hello";
+        return "hello xml";
     }
 }
